@@ -1,17 +1,5 @@
 console.log("Hello world!")
-
-const person = {
-    name: "Eddy",
-    age: "47",
-    favouriteColour: "green",
-    FavouritePet: "Rhino"
-  };
-
-  console.log(person)
-  console.table(person)
-  console.log(person.age)
-
-  const car ={
+const car ={
     Make:"Skoda",
     Model:"Octavia",
     Colour:"Grey",
@@ -19,18 +7,18 @@ const person = {
     Fuel: "Diesel",
   }
 
-  console.table(car)
+console.table(car)
 
-  const book = {
+const book = {
     title:  "The Time Traveler's Wife",
     author: "Audrey Niffenegger",
-    numberOfPages: "592",
+    numberOfPages: 592,
   }
 
-  myBookGenres = mybookinfo.genres
+myBookGenres = mybookinfo.genres
 
-for(let i = 0; i < myBookGenres.length; i++) {
-	console.log(myBookGenres[i]);
+for(let i = 0; i < book.numberOfPages; i++) {
+	console.log(book[i]);
 }
     let myBookGenres = myBookInfo.genres
 
@@ -46,16 +34,6 @@ myBookGenres.forEach(function(genre, index) {
 for (genre of myBookGenres) {
     console.log(genre)
 }
-const blogPost = {
-    title: "My first blog post",
-    author: {
-      name: "Bob",
-      age: 30,
-      favouriteColour: "red",
-    },
-    tags: ["coding", "javascript", "objects", "arrays"],
-    content: "This is my blog post about learning objects and arrays.",
-  };
   console.log(blogPost.author.name);
 
   console.log(
